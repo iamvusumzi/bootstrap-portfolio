@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&family=Raleway:wght@400;702&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&family=Raleway:wght@400;702;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Navigation */
+
+.code-strokes {
+    color: crimson;
+}
+
+.navbar .nav-link a:hover {
+    color: crimson;
+}
+
+#landing {
+    background: url(./images/bg-final.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.landing-title {
+    filter: drop-shadow(16px 2px 10px black);
+}
+
+.landing-title h1 {
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.landing-title h2 {
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    filter: drop-shadow(16px 2px 10px black);
+}
+
+/* About Me Styles */
+#about img {
+    width: 350px;
+    height: 450px;
+    object-fit: contain;
+}
+/* #landing #landing .socials {
+    font-size: 1.5rem;
+    color: white;
+} */
+
+/* .socials a {
+    color: crimson;
+    text-decoration: none;
+    margin-right: 1rem;
+} */
+
+.hire-me button {
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+/* Testimonials */
+.section-title {
+    background-image: linear-gradient(crimson, crimson);
+    background-repeat: no-repeat;
+    background-size: 3% 4px, calc(100% - 4px) 100%;
+    background-position: center bottom, 4px 0;
+}
+
+#testimonials {
+    background: linear-gradient(rgba(21, 25, 29, 0.8), rgba(21, 25, 29, 0.8)),
+        url(./images/pexels-danny-meneses-943096.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

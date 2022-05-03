@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mock Portfolio</title>
+
+        <!-- My styles last -->
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav
+            class="navbar navbar-expand-sm navbar-dark bg-dark shadow-lg fixed-top"
+        >
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#">
+                    <span class="text-danger">&lt;</span> Vusumzi
+                    <span class="text-danger">/&gt;</span>
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#nav-links"
+                    aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse justify-content-end"
+                    id="nav-links"
+                >
+                    <ul class="navbar-nav">
+                        <li>
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#landing"
+                                >Home</a
+                            >
+                        </li>
+                        <li><a class="nav-link" href="#about">About</a></li>
+                        <li><a class="nav-link" href="#resume">Resume</a></li>
+                        <li>
+                            <a
+                                class="nav-link"
+                                href="#projects"
+                                aria-disabled="true"
+                                >Projects</a
+                            >
+                        </li>
+                        <li><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End Of Navigation  -->
+
+        <!-- Start Landing -->
+        <section id="landing">
+            <div
+                class="container d-flex align-items-center justify-content-start min-vh-100"
+            >
+                <div class="landing-header text-center-lg text-white">
+                    <div class="landing-title">
+                        <h1>Vusumzi Msengana</h1>
+                        <h2>I'm a Software Engineer</h2>
+                    </div>
+                    <div class="hire-me mt-4">
+                        <button class="btn btn-danger text-normal">
+                            Hire Me
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Landing -->
+
+        <!-- Start About -->
+        <section id="about" class="mb-5 bg-light">
+            <div class="container bg-white">
+                <h2 class="section-title text-center mt-3 p-3">About Me</h2>
+                <div class="row">
+                    <div class="col-lg-3 text-center">
+                        <img
+                            class="img-fluid"
+                            src="./images/Vusumzi.JPG"
+                            alt="about picture"
+                        />
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="row mt-4">
+                            <h4 class="text-danger">
+                                Full-Stack Web Developer
+                            </h4>
+                            <p>
+                                Hello, lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Tempore similique nisi ex quo
+                                repellendus illum.
+                            </p>
+                        </div>
+                        <div class="row personal-detais">
+                            <ul class="list-unstyled col-lg-6 mb-0">
+                                <li class="m-3">
+                                    <i
+                                        class="fa-solid fa-chevron-right text-danger"
+                                    ></i
+                                    ><span class="fw-bold p-3 text-danger"
+                                        >Name:
+                                    </span>
+                                    Vusumzi Msengana
+                                </li>
+                                <li class="m-3">
+                                    <i
+                                        class="fa-solid fa-chevron-right text-danger"
+                                    ></i
+                                    ><span class="fw-bold p-3 text-danger"
+                                        >Birthday:
+                                    </span>
+                                    02 September
+                                </li>
+                                <li class="m-3">
+                                    <i
+                                        class="fa-solid fa-chevron-right text-danger"
+                                    ></i
+                                    ><span class="fw-bold p-3 text-danger"
+                                        >Location:
+                                    </span>
+                                    Gugulethu, Cape Town
+                                </li>
+                            </ul>
+                            <ul class="list-unstyled col-lg-6 mt-0">
+                                <li class="m-3">
+                                    <i
+                                        class="fa-solid fa-chevron-right text-danger"
+                                    ></i
+                                    ><span class="fw-bold p-3 text-danger"
+                                        >Degree:
+                                    </span>
+                                    BSc Computer Science
+                                </li>
+                                <li class="m-3">
+                                    <i
+                                        class="fa-solid fa-chevron-right text-danger"
+                                    ></i
+                                    ><span class="fw-bold p-3 text-danger"
+                                        >Email:
+                                    </span>
+                                    vmsengana2@gmail.com
+                                </li>
+                                <li class="m-3">
+                                    <i
+                                        class="fa-solid fa-chevron-right text-danger"
+                                    ></i
+                                    ><span class="fw-bold p-3 text-danger"
+                                        >Phone:
+                                    </span>
+                                    068 258 3615
+                                </li>
+                            </ul>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Praesentium velit magni non. Dignissimos
+                            consectetur autem iure in, repellat omnis culpa.
+                        </p>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h2 class="section-title text-center mt-3 p-3">Skills</h2>
+                    <div class="row mt-4">
+                        <div class="col-lg-6">
+                            <div class="skill py-3">
+                                <div
+                                    class="title d-flex justify-content-between"
+                                >
+                                    <span>HTML5</span>
+                                    <span>100%</span>
+                                </div>
+                                <div class="progress">
+                                    <div
+                                        class="progress-bar bg-danger w-100"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="skill py-3">
+                                <div
+                                    class="title d-flex justify-content-between"
+                                >
+                                    <span>CSS3</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="progress">
+                                    <div
+                                        class="progress-bar bg-danger w-75"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="skill py-3">
+                                <div
+                                    class="title d-flex justify-content-between"
+                                >
+                                    <span>JavaScript</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="progress">
+                                    <div
+                                        class="progress-bar bg-danger w-75"
+                                    ></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="skill py-3">
+                                <div
+                                    class="title d-flex justify-content-between"
+                                >
+                                    <span>HTML5</span>
+                                    <span>100%</span>
+                                </div>
+                                <div class="progress">
+                                    <div
+                                        class="progress-bar bg-danger w-100"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="skill py-3">
+                                <div
+                                    class="title d-flex justify-content-between"
+                                >
+                                    <span>HTML5</span>
+                                    <span>100%</span>
+                                </div>
+                                <div class="progress">
+                                    <div
+                                        class="progress-bar bg-danger w-100"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="skill py-3">
+                                <div
+                                    class="title d-flex justify-content-between"
+                                >
+                                    <span>HTML5</span>
+                                    <span>100%</span>
+                                </div>
+                                <div class="progress">
+                                    <div
+                                        class="progress-bar bg-danger w-100"
+                                    ></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Start Testimonials  -->
+        <section id="testimonials" class="py-5">
+            <div class="container-fluid pt-5 text-center text-white">
+                <h2 class="mb-5 text-center section-title p-3">Testimonials</h2>
+
+                <div
+                    id="testimonialSlider"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                >
+                    <div class="carousel-indicators">
+                        <button
+                            type="button"
+                            data-bs-target="#testimonialSlider"
+                            data-bs-slide-to="0"
+                            class="active bg-danger rounded-circle"
+                            style="width: 20px; height: 20px"
+                            aria-current="true"
+                            aria-label="Slide 1"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#testimonialSlider"
+                            data-bs-slide-to="1"
+                            class="rounded-circle bg-danger"
+                            style="width: 20px; height: 20px"
+                            aria-label="Slide 2"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#testimonialSlider"
+                            data-bs-slide-to="2"
+                            class="rounded-circle bg-danger"
+                            style="width: 20px; height: 20px"
+                            aria-label="Slide 3"
+                        ></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pb-5 text-center active">
+                            <div>
+                                <img
+                                    src="./images/IMG_3929.JPG"
+                                    class="rounded-circle mb-5 img-fluid"
+                                    style="width: 180px; height: 180px"
+                                    alt="Person"
+                                />
+                                <h5>First slide label</h5>
+                                <p>
+                                    Some representative placeholder content for
+                                    the first slide.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item pb-5 text-center">
+                            <div>
+                                <img
+                                    src="./images/IMG_3929.JPG"
+                                    class="rounded-circle mb-5"
+                                    style="width: 180px; height: 180px"
+                                    alt="Person"
+                                />
+                                <h5>Second slide label</h5>
+                                <p>
+                                    Some representative placeholder content for
+                                    the second slide.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item pb-5 text-center">
+                            <div>
+                                <img
+                                    src="./images/IMG_3929.JPG"
+                                    class="rounded-circle mb-5"
+                                    style="width: 180px; height: 180px"
+                                    alt="Person"
+                                />
+                                <h5>Third slide label</h5>
+                                <p>
+                                    Some representative placeholder content for
+                                    the third slide.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#testimonialSlider"
+                        data-bs-slide="prev"
+                    >
+                        <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#testimonialSlider"
+                        data-bs-slide="next"
+                    >
+                        <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- End Testimonials -->
+
+        <!-- Start Project -->
+        <section id="projects">
+            <div class="container">
+                <h2 class="section-title text-center mt-3 p-3">Projects</h2>
+
+                <div class="project-container mt-5 text-center">
+                    <div class="card d-inline-block mx-3" style="width: 18rem">
+                        <img
+                            src="./images/holiday-destination.PNG"
+                            alt="picture1"
+                            class="card-img-top"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title text-center">
+                                My Holiday Destination
+                            </h5>
+                            <p class="card-text">
+                                Build with HTML5 and CSS in introductiion to
+                                html and css class
+                            </p>
+                            <button
+                                class="btn btn-danger"
+                                data-bs-toggle="modal"
+                                data-bs-target="#project1"
+                            >
+                                View More
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card d-inline-block mx-3" style="width: 18rem">
+                        <img
+                            src="./images/calc.PNG"
+                            alt="picture2"
+                            class="card-img-top"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Calculator</h5>
+                            <p class="card-text">
+                                Build with HTML5 and CSS in introductiion to
+                                html and css class
+                            </p>
+                            <button
+                                class="btn btn-danger"
+                                data-bs-toggle="modal"
+                                data-bs-target="#project2"
+                            >
+                                View More
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card d-inline-block mx-3" style="width: 18rem">
+                        <img
+                            src="./images/portfolio.PNG"
+                            alt="picture1"
+                            class="card-img-top"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title text-center">My Portfolio</h5>
+                            <p class="card-text">
+                                Build with HTML5 and CSS in introductiion to
+                                html and css class
+                            </p>
+                            <button
+                                class="btn btn-danger"
+                                data-bs-toggle="modal"
+                                data-bs-target="#project3"
+                            >
+                                View More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Projects -->
+
+        <!-- Modals -->
+        <div
+            class="modal fade"
+            id="project1"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog mw-100 p-5">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                            Project 1
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img
+                                        class="img-fluid"
+                                        src="./images/holiday-destination.PNG"
+                                    />
+                                </div>
+                                <div class="col-md-6">
+                                    <h4>My Holiday Destination</h4>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Eveniet facere
+                                        officiis, impedit esse fugit
+                                        reprehenderit sit, nostrum possimus
+                                        veritatis quisquam harum quas quo rerum
+                                        beatae obcaecati qui, ex ipsam doloribus
+                                        asperiores nemo dolorem. Sunt labore
+                                        repudiandae praesentium eveniet adipisci
+                                        corporis ipsa. Iure natus molestias
+                                        laudantium optio recusandae, similique
+                                        facere omnis!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                        >
+                            View Code
+                        </a>
+                        <a type="button" class="btn btn-primary"> Visit </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal fade"
+            id="project2"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog mw-100 p-5">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                            Project 2
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img
+                                        class="img-fluid"
+                                        src="./images/calc.PNG"
+                                    />
+                                </div>
+                                <div class="col-md-6">
+                                    <h4>Calculator Project</h4>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Eveniet facere
+                                        officiis, impedit esse fugit
+                                        reprehenderit sit, nostrum possimus
+                                        veritatis quisquam harum quas quo rerum
+                                        beatae obcaecati qui, ex ipsam doloribus
+                                        asperiores nemo dolorem. Sunt labore
+                                        repudiandae praesentium eveniet adipisci
+                                        corporis ipsa. Iure natus molestias
+                                        laudantium optio recusandae, similique
+                                        facere omnis!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                        >
+                            View Code
+                        </a>
+                        <a type="button" class="btn btn-primary"> Visit </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal fade"
+            id="project3"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog mw-100 p-5">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                            Project 3
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img
+                                        class="img-fluid"
+                                        src="./images/portfolio.PNG"
+                                    />
+                                </div>
+                                <div class="col-md-6">
+                                    <h4>Portfolio Project</h4>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Eveniet facere
+                                        officiis, impedit esse fugit
+                                        reprehenderit sit, nostrum possimus
+                                        veritatis quisquam harum quas quo rerum
+                                        beatae obcaecati qui, ex ipsam doloribus
+                                        asperiores nemo dolorem. Sunt labore
+                                        repudiandae praesentium eveniet adipisci
+                                        corporis ipsa. Iure natus molestias
+                                        laudantium optio recusandae, similique
+                                        facere omnis!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                        >
+                            View Code
+                        </a>
+                        <a type="button" class="btn btn-primary"> Visit </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- Font Awesome -->
+        <script
+            src="https://kit.fontawesome.com/a6df19af5a.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
